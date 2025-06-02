@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema Tanımları -->
+    <style name="Theme.HazirMesajlarSeninle" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_text_color</item>
+        <item name="colorPrimaryVariant">@color/material_dynamic_tertiary95</item>
+        <item name="colorAccent">@color/background_light</item>
+    </style>
+
+</resources>

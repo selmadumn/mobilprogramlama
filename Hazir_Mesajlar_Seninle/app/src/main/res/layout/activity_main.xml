@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/background_light"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:text="Mesaj Kategorilerini Gör"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/system_error_900"
+        tools:ignore="NewApi" />
+
+    <Button
+        android:id="@+id/buttonFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoriler"
+        android:onClick="openFavorites"
+        android:backgroundTint="@android:color/system_error_700"
+        tools:ignore="NewApi" />
+
+    <TextView
+        android:id="@+id/messagesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydedilmiş Mesajlar:" />
+
+
+
+</LinearLayout>

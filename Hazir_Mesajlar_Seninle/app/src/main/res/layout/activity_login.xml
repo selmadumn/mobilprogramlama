@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/actionModeSplitBackground">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/login_icon_foreground"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adınızı girin"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:text="Devam Et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/system_error_900"
+        tools:ignore="NewApi" />
+</LinearLayout>

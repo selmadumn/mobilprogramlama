@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hazir_mesajlar_seninle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/login_icon_foreground"
+        android:label=""
+        android:theme="@style/Theme.HazirMesajlarSeninle">
+
+        <!-- Giriş Ekranı - Uygulama başlangıç noktası -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Ana Sayfa -->
+        <activity android:name=".MainActivity" android:exported="false"/>
+
+        <!-- Kategori Seçim Sayfası -->
+        <activity android:name=".CategoryActivity" android:exported="false"/>
+
+        <!-- Mesajlar Sayfası -->
+        <activity android:name=".MessageActivity" android:exported="false"/>
+        <!-- Favoriler Sayfası -->
+
+        <activity android:name=".FavoriteActivity" android:exported="false"/>
+
+    </application>
+</manifest>

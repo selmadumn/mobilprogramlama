@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_text_color">#263238</color> <!-- Yazılar için koyu renk -->
+    <color name="button_color">#43E949</color> <!-- Butonlar için turuncu renk -->
+    <color name="background_light">#FFF3E0</color> <!-- Açık arka plan rengi -->
+
+</resources>
